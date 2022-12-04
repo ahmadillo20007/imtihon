@@ -7,11 +7,13 @@
 max-width: 1516px;
     height: 6500px;
    box-shadow: 10px #fff;
+   overflow: hidden;
 flex-wrap: wrap;
 }   
-@media (max-width: 414px){
+
+@media (max-width:414px){
     .all{
-        font-size: 100px;
+        width: 414px;
     }
 }
 

@@ -75,7 +75,17 @@ width: 1920px;
 }
 @media (max-width: 947px){
     .info__text{
-        font-size: 60px;
+        position: absolute;
+width: 320px;
+height: 110px;
+left: 20px;
+top: 137px;
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 41px;
+line-height: 55px;
+color: #01384D;
     }
 }
 
@@ -85,6 +95,18 @@ width: 1920px;
     height: 380px;
     left: 895px;
     top: 260px;
+}
+@media (max-width: 414px){
+    .info__bad{
+        
+        position: absolute;
+        width: 359px;
+        height: 194px;
+        left: 1px;
+        top: 286px;
+        
+        background: url(5a351f64604902.png);
+    }
 }
 
 .info__buttom {
@@ -97,6 +119,19 @@ width: 1920px;
     left: 322px;
     top: 423px;
 }
+@media (max-width: 414px){
+    .info__buttom{
+        box-sizing: border-box;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 520px;
+bottom: 0%;
+background: #FFFFFF;
+border: 2px solid #01384D;
+border-radius: 5px;
+    }
+}
 
 .info__rentangle {
     position: absolute;
@@ -104,6 +139,18 @@ width: 1920px;
     height: 3px;
     left: 320px;
     top: 569px;
+}
+@media (max-width:414px){
+    .info__rentangle{
+        position: absolute;
+width: 250px;
+height: 3px;
+left: 20px;
+top: 615px;
+
+background: #FFFFFF;
+border-radius: 10px;
+    }
 }
 
 
@@ -126,12 +173,12 @@ width: 1920px;
         position: absolute;
 left: 19.17%;
 right: 73.61%;
-top: 6.54%;
+top: 750px;
 bottom: 93%;
 font-family: 'Josefin Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 50px;
+font-size: 70px;
 line-height: 50px;
 text-align: center;
 color: #01384D;
@@ -153,6 +200,22 @@ color: #01384D;
     text-align: center;
     color: #01384D;
 }
+@media (max-width:414px){
+    .malumot__hero2{
+        position: absolute;
+left: 56.94%;
+right: 14.17%;
+top: 750px;
+bottom: 93%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 50px;
+text-align: center;
+color: #01384D;
+    }
+}
 
 .malumot__hero3 {
     position: absolute;
@@ -167,6 +230,23 @@ color: #01384D;
     line-height: 141px;
     text-align: center;
     color: #01384D;
+}
+@media (max-width: 414px){
+    .malumot__hero3{
+        position: absolute;
+width: 49px;
+height: 50px;
+left: 61px;
+top: 910px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 50px;
+
+text-align: center;
+color: #01384D;
+    }
 }
 
 .malumot__hero4 {
@@ -183,6 +263,23 @@ color: #01384D;
     text-align: center;
     color: #01384D;
 }
+@media (max-width:414px){
+    .malumot__hero4{
+        
+position: absolute;
+width: 27px;
+height: 50px;
+left: 246px;
+top: 910px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 50px;
+text-align: center;
+color: #01384D;
+    }
+}
 
 .malumot__text1 {
     position: absolute;
@@ -197,6 +294,22 @@ color: #01384D;
     line-height: 23px;
     text-align: center;
     color: #01384D;
+}
+@media (max-width: 414px){
+    .malumot__text1{
+        position: absolute;
+left: 12.5%;
+right: 66.67%;
+top: 830px;
+bottom: 92.73%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 14px;
+text-align: center;
+color: #01384D;
+    }
 }
 
 .malumot__text2 {
@@ -213,6 +326,22 @@ color: #01384D;
     text-align: center;
     color: #01384D;
 }
+@media (max-width:414px){
+    .malumot__text2{
+        position: absolute;
+left: 56.39%;
+right: 13.33%;
+top: 830px;
+bottom: 92.73%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 14px;
+text-align: center;
+color: #01384D;
+    }
+}
 
 .malumot__text3 {
     position: absolute;
@@ -228,6 +357,23 @@ color: #01384D;
     text-align: center;
     color: #01384D;
 }
+@media (max-width:414px){
+    .malumot__text3{
+        position: absolute;
+width: 78px;
+height: 14px;
+left: 56px;
+top: 970px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 14px;
+text-align: center;
+color: #01384D;
+
+    }
+}
 
 .malumot__text4 {
     position: absolute;
@@ -242,4 +388,20 @@ color: #01384D;
     line-height: 23px;
     text-align: center;
     color: #01384D;
+}
+@media (max-width:414px){
+    .malumot__text4{
+        position: absolute;
+        width: 102px;
+        height: 14px;
+        left: 209px;
+        top: 970px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+        color: #01384D;
+    }
 }

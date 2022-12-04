@@ -74,7 +74,17 @@
 
 @media (max-width: 947px) {
   .info__text {
-    font-size: 60px;
+    position: absolute;
+    width: 320px;
+    height: 110px;
+    left: 20px;
+    top: 137px;
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 55px;
+    color: #01384D;
   }
 }
 .info__bad {
@@ -85,6 +95,16 @@
   top: 260px;
 }
 
+@media (max-width: 414px) {
+  .info__bad {
+    position: absolute;
+    width: 359px;
+    height: 194px;
+    left: 1px;
+    top: 286px;
+    background: url(5a351f64604902.png);
+  }
+}
 .info__buttom {
   border: 2px solid #01384D;
   border-radius: 5px;
@@ -96,6 +116,19 @@
   top: 423px;
 }
 
+@media (max-width: 414px) {
+  .info__buttom {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 520px;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 2px solid #01384D;
+    border-radius: 5px;
+  }
+}
 .info__rentangle {
   position: absolute;
   max-width: 250px;
@@ -104,6 +137,17 @@
   top: 569px;
 }
 
+@media (max-width: 414px) {
+  .info__rentangle {
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    left: 20px;
+    top: 615px;
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+}
 .malumot__hero1 {
   position: absolute;
   max-width: 68px;
@@ -119,6 +163,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__hero1 {
+    position: absolute;
+    left: 19.17%;
+    right: 73.61%;
+    top: 750px;
+    bottom: 93%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__hero2 {
   position: absolute;
   max-width: 251px;
@@ -134,6 +194,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__hero2 {
+    position: absolute;
+    left: 56.94%;
+    right: 14.17%;
+    top: 750px;
+    bottom: 93%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__hero3 {
   position: absolute;
   max-width: 134px;
@@ -149,6 +225,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__hero3 {
+    position: absolute;
+    width: 49px;
+    height: 50px;
+    left: 61px;
+    top: 910px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__hero4 {
   position: absolute;
   max-width: 67px;
@@ -164,6 +256,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__hero4 {
+    position: absolute;
+    width: 27px;
+    height: 50px;
+    left: 246px;
+    top: 910px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__text1 {
   position: absolute;
   max-width: 103px;
@@ -179,6 +287,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__text1 {
+    position: absolute;
+    left: 12.5%;
+    right: 66.67%;
+    top: 830px;
+    bottom: 92.73%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__text2 {
   position: absolute;
   max-width: 161px;
@@ -194,6 +318,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__text2 {
+    position: absolute;
+    left: 56.39%;
+    right: 13.33%;
+    top: 830px;
+    bottom: 92.73%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__text3 {
   position: absolute;
   max-width: 109px;
@@ -209,6 +349,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__text3 {
+    position: absolute;
+    width: 78px;
+    height: 14px;
+    left: 56px;
+    top: 970px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .malumot__text4 {
   position: absolute;
   max-width: 148px;
@@ -224,6 +380,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .malumot__text4 {
+    position: absolute;
+    width: 102px;
+    height: 14px;
+    left: 209px;
+    top: 970px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .mahsulot__text {
   position: absolute;
   width: 479px;
@@ -238,6 +410,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .mahsulot__text {
+    position: absolute;
+    width: 268px;
+    height: 28px;
+    left: 20px;
+    top: 1014px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 28px;
+    color: #01384D;
+  }
+}
 .mahsulot__title1 {
   position: absolute;
   width: 66px;
@@ -252,6 +439,22 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .mahsulot__title1 {
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 20px;
+    top: 1150px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #01384D;
+  }
+}
 .mahsulot__title2 {
   position: absolute;
   width: 68px;
@@ -266,6 +469,23 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .mahsulot__title2 {
+    position: absolute;
+    width: 62px;
+    height: 16px;
+    left: 153px;
+    top: 1140px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .mahsulot__title3 {
   position: absolute;
   width: 69px;
@@ -280,6 +500,23 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .mahsulot__title3 {
+    position: absolute;
+    width: 71px;
+    height: 16px;
+    left: 255px;
+    top: 1150px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .mahsulot__title4 {
   position: absolute;
   width: 62px;
@@ -389,11 +626,23 @@
   border: 1px solid #C7DFF5;
 }
 
+@media (max-width: 414px) {
+  .box1 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 1170px;
+    bottom: 0%;
+    background: #F6FBFF;
+    border: 1px solid #C7DFF5;
+  }
+}
 .box2 {
   position: absolute;
   min-width: 1380px;
   height: 456px;
-  left: 120px;
+  left: 0px;
   top: 1721px;
   background: #F6FBFF;
   border: 1px solid #C7DFF5;
@@ -403,7 +652,7 @@
   position: absolute;
   min-width: 1380px;
   height: 456px;
-  left: 120px;
+  left: 0px;
   top: 2221px;
   background: #F6FBFF;
   border: 1px solid #C7DFF5;
@@ -413,7 +662,7 @@
   position: absolute;
   min-width: 1380px;
   height: 456px;
-  left: 120px;
+  left: 0px;
   top: 2721px;
   background: #F6FBFF;
   border: 1px solid #C7DFF5;
@@ -423,7 +672,7 @@
   position: absolute;
   min-width: 1380px;
   height: 456px;
-  left: 120px;
+  left: 0px;
   top: 3271px;
   background: #F6FBFF;
   border: 1px solid #C7DFF5;
@@ -433,12 +682,17 @@
   position: absolute;
   min-width: 1380px;
   height: 456px;
-  left: 120px;
+  left: 0px;
   top: 3771px;
   background: #F6FBFF;
   border: 1px solid #C7DFF5;
 }
 
+@media (max-width: 414px) {
+  .box6 {
+    color: red;
+  }
+}
 .mahsulot__word {
   position: absolute;
   left: 47.19%;
@@ -453,6 +707,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .mahsulot__word {
+    position: absolute;
+    left: 5.56%;
+    right: 29.44%;
+    top: 10.05%;
+    bottom: 87.15%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #01384D;
+  }
+}
 .p1 {
   position: absolute;
   left: 47.19%;
@@ -468,6 +737,22 @@
   opacity: 0.6;
 }
 
+@media (max-width: 414px) {
+  .p1 {
+    position: absolute;
+    left: 5.56%;
+    right: 79.17%;
+    top: 39.95%;
+    bottom: 58.27%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .p2 {
   position: absolute;
   left: 58.83%;
@@ -483,6 +768,22 @@
   opacity: 0.6;
 }
 
+@media (max-width: 414px) {
+  .p2 {
+    position: absolute;
+    left: 300px;
+    right: 23.61%;
+    top: 39.95%;
+    bottom: 58.27%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .p3 {
   position: absolute;
   left: 69.14%;
@@ -498,6 +799,22 @@
   opacity: 0.6;
 }
 
+@media (max-width: 414px) {
+  .p3 {
+    position: absolute;
+    left: 5.56%;
+    right: 78.89%;
+    top: 55.13%;
+    bottom: 48.09%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .p4 {
   position: absolute;
   left: 88.83%;
@@ -513,6 +830,22 @@
   opacity: 0.6;
 }
 
+@media (max-width: 414px) {
+  .p4 {
+    position: absolute;
+    left: 22.06%;
+    right: 25.28%;
+    top: 55.13%;
+    bottom: 48.09%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .x1 {
   position: absolute;
   left: 47.19%;
@@ -527,6 +860,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .x1 {
+    position: absolute;
+    left: 5.56%;
+    right: 83.61%;
+    top: 43%;
+    bottom: 53.69%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    color: #01384D;
+  }
+}
 .z1 {
   position: absolute;
   left: 51.48%;
@@ -541,6 +889,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .z1 {
+    position: absolute;
+    left: 8.78%;
+    right: 77.5%;
+    top: 44.99%;
+    bottom: 54.07%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+  }
+}
 .x2 {
   position: absolute;
   left: 58.83%;
@@ -555,6 +918,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .x2 {
+    position: absolute;
+    left: 23.06%;
+    right: 33.06%;
+    top: 43%;
+    bottom: 53.69%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    color: #01384D;
+  }
+}
 .z2 {
   position: absolute;
   left: 60.55%;
@@ -569,6 +947,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .z2 {
+    position: absolute;
+    left: 24.33%;
+    right: 27.22%;
+    top: 45.15%;
+    bottom: 54.07%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+  }
+}
 .x3 {
   position: absolute;
   left: 69.14%;
@@ -583,6 +976,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .x3 {
+    position: absolute;
+    left: 5.56%;
+    right: 53.61%;
+    top: 59.18%;
+    bottom: 43.51%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    color: #01384D;
+  }
+}
 .x4 {
   position: absolute;
   left: 88.83%;
@@ -597,6 +1005,20 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .x4 {
+    position: absolute;
+    left: 22.06%;
+    right: 32.5%;
+    top: 58.18%;
+    bottom: 43.51%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
 .z3 {
   position: absolute;
   left: 90.55%;
@@ -611,6 +1033,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .z3 {
+    position: absolute;
+    left: 23.29%;
+    right: 24.33%;
+    top: 60.9%;
+    bottom: 43.89%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384D;
+  }
+}
 .pen {
   position: absolute;
   left: 47.19%;
@@ -641,6 +1078,22 @@
   opacity: 0.6;
 }
 
+@media (max-width: 414px) {
+  .narx {
+    position: absolute;
+    left: 5.56%;
+    right: 83.06%;
+    top: 73.47%;
+    bottom: 76.38%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #01384D;
+    opacity: 0.6;
+  }
+}
 .narxi {
   position: absolute;
   left: 47.19%;
@@ -655,6 +1108,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .narxi {
+    position: absolute;
+    left: 5.56%;
+    right: 58.61%;
+    top: 77.99%;
+    bottom: 76.02%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #01384D;
+  }
+}
 .val {
   position: absolute;
   left: 58.2%;
@@ -669,6 +1137,21 @@
   color: #01384D;
 }
 
+@media (max-width: 414px) {
+  .val {
+    position: absolute;
+    left: 14.78%;
+    right: 47.78%;
+    top: 80%;
+    bottom: 76.05%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #01384D;
+  }
+}
 .buyurt {
   position: absolute;
   left: 47.19%;
@@ -691,9 +1174,19 @@
 
 .yotoqxona {
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: -150px;
 }
 
+@media (max-width: 414px) {
+  .yotoqxona {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 17.94%;
+    bottom: 65.14%;
+    background: url(.png);
+  }
+}
 .texnologiya {
   position: absolute;
   width: 746px;
@@ -1040,11 +1533,12 @@
   max-width: 1516px;
   height: 6500px;
   box-shadow: 10px #fff;
+  overflow: hidden;
   flex-wrap: wrap;
 }
 
 @media (max-width: 414px) {
   .all {
-    font-size: 100px;
+    width: 414px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -12,6 +12,22 @@
     color: #01384D;
 }
 
+@media (max-width:414px) {
+    .mahsulot__text {
+        position: absolute;
+        width: 268px;
+        height: 28px;
+        left: 20px;
+        top: 1014px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 28px;
+        color: #01384D;
+    }
+}
+
 .mahsulot__title1 {
     position: absolute;
     width: 66px;
@@ -25,6 +41,23 @@
     font-size: 16px;
     line-height: 19px;
     color: #01384D;
+}
+
+@media (max-width:414px) {
+    .mahsulot__title1 {
+        position: absolute;
+        width: 63px;
+        height: 16px;
+        left: 20px;
+        top: 1150px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #01384D;
+    }
 }
 
 .mahsulot__title2 {
@@ -41,6 +74,24 @@
     color: #01384D;
 }
 
+@media (max-width:414px) {
+    .mahsulot__title2 {
+        position: absolute;
+        width: 62px;
+        height: 16px;
+        left: 153px;
+        top: 1140px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #01384D;
+        opacity: 0.6;
+    }
+}
+
 .mahsulot__title3 {
     position: absolute;
     width: 69px;
@@ -53,6 +104,24 @@
     font-size: 16px;
     line-height: 19px;
     color: #01384D;
+}
+
+@media (max-width:414px) {
+    .mahsulot__title3 {
+        position: absolute;
+        width: 71px;
+        height: 16px;
+        left: 255px;
+        top: 1150px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #01384D;
+        opacity: 0.6;
+    }
 }
 
 .mahsulot__title4 {
@@ -163,13 +232,29 @@
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
 }
+@media (max-width:414px){
+    .box1{
+        box-sizing: border-box;
+
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 1170px;
+        bottom: 0%;
+       
+
+
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+    }
+}
 
 .box2 {
 
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 120px;
+    left: 0px;
     top: 1721px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
@@ -179,7 +264,7 @@
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 120px;
+    left: 0px;
     top: 2221px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
@@ -189,7 +274,7 @@
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 120px;
+    left: 0px;
     top: 2721px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
@@ -199,7 +284,7 @@
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 120px;
+    left: 0px;
     top: 3271px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
@@ -209,12 +294,16 @@
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 120px;
+    left: 0px;
     top: 3771px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
 }
-
+@media (max-width: 414px){
+    .box6{
+       color: red;
+    }
+}
 .mahsulot__word {
     position: absolute;
     left: 47.19%;
@@ -228,7 +317,21 @@
     line-height: 47px;
     color: #01384D;
 }
-
+@media (max-width:414px){
+    .mahsulot__word{
+        position: absolute;
+left: 5.56%;
+right: 29.44%;
+top: 10.05%;
+bottom: 87.15%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 22px;
+color: #01384D;
+    }
+}
 
 .p1 {
     position: absolute;
@@ -243,6 +346,22 @@
     line-height: 19px;
     color: #01384D;
     opacity: 0.6;
+}
+@media (max-width:414px){
+    .p1{
+        position: absolute;
+left: 5.56%;
+right: 79.17%;
+top: 39.95%;
+bottom: 58.27%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #01384D;
+opacity: 0.6;
+    }
 }
 
 .p2 {
@@ -259,7 +378,22 @@
     color: #01384D;
     opacity: 0.6;
 }
-
+@media (max-width:414px){
+    .p2{
+        position: absolute;
+left: 300px;
+right: 23.61%;
+top: 39.95%;
+bottom: 58.27%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #01384D;
+opacity: 0.6;
+    }
+}
 .p3 {
     position: absolute;
     left: 69.14%;
@@ -274,7 +408,22 @@
     color: #01384D;
     opacity: 0.6;
 }
-
+@media (max-width:414px){
+    .p3{
+        position: absolute;
+left: 5.56%;
+right: 78.89%;
+top: 55.13%;
+bottom: 48.09%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #01384D;
+opacity: 0.6;
+    }
+}
 .p4 {
     position: absolute;
     left: 88.83%;
@@ -289,7 +438,24 @@
     color: #01384D;
     opacity: 0.6;
 }
-
+@media (max-width:414px){
+    .p4{
+        position: absolute;
+        left: 22.06%;
+        right: 25.28%;
+        top: 55.13%;
+        bottom: 48.09%;
+        
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #01384D;
+        
+        opacity: 0.6;
+    }
+}
 .x1 {
     position: absolute;
     left: 47.19%;
@@ -303,7 +469,21 @@
     line-height: 35px;
     color: #01384D;
 }
-
+@media (max-width:414px){
+    .x1{
+        position: absolute;
+left: 5.56%;
+right: 83.61%;
+top: 43%;
+bottom: 53.69%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+color: #01384D;
+    }
+}
 .z1 {
     position: absolute;
     left: 51.48%;
@@ -317,7 +497,21 @@
     line-height: 19px;
     color: #01384D;
 }
-
+@media (max-width:414px){
+    .z1{
+        position: absolute;
+left:8.78%;
+right: 77.5%;
+top: 44.99%;
+bottom: 54.07%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+color: #01384D;
+    }
+}
 .x2 {
     position: absolute;
     left: 58.83%;
@@ -331,7 +525,21 @@
     line-height: 35px;
     color: #01384D;
 }
-
+@media (max-width:414px){
+    .x2{
+        position: absolute;
+left: 23.06%;
+right: 33.06%;
+top: 43%;
+bottom: 53.69%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+color: #01384D;
+    }
+}
 .z2 {
     position: absolute;
     left: 60.55%;
@@ -345,7 +553,21 @@
     line-height: 19px;
     color: #01384D;
 }
-
+@media (max-width:414px){
+    .z2{
+        position: absolute;
+left: 24.33%;
+right: 27.22%;
+top: 45.15%;
+bottom: 54.07%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+color: #01384D;
+    }
+}
 .x3 {
     position: absolute;
     left: 69.14%;
@@ -359,7 +581,23 @@
     line-height: 35px;
     color: #01384D;
 }
+@media (max-width: 414px){
+    .x3{
+        position: absolute;
+left: 5.56%;
+right: 53.61%;
+top: 59.18%;
+bottom: 43.51%;
 
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+
+color: #01384D;
+    }
+}
 .x4 {
     position: absolute;
     left: 88.83%;
@@ -373,7 +611,23 @@
     line-height: 35px;
     color: #01384D;
 }
+@media (max-width: 414px){
+    .x4{
+        position: absolute;
+left: 22.06%;
+right: 32.5%;
+top: 58.18%;
+bottom: 43.51%;
 
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+
+
+    }
+}
 .z3 {
     position: absolute;
     left: 90.55%;
@@ -390,7 +644,22 @@
     color: #01384D;
 
 }
+@media (max-width:414px){
+    .z3{
+        position: absolute;
+left: 23.29%;
+right: 24.33%;
+top: 60.90%;
+bottom: 43.89%;
 
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+color: #01384D;
+    }
+}
 .pen {
     position: absolute;
     left: 47.19%;
@@ -405,7 +674,26 @@
     color: #01384D;
     opacity: 0.6;
 }
+// @media (max-width:414px){
+//     .pen{
+//         position: absolute;
+// left: 5.56%;
+// right: 5.56%;   
+// top: 60.31%;
+// bottom: 25.06%;
 
+// font-family: 'Josefin Sans';
+// font-style: normal;
+// font-weight: 400;
+// font-size: 14px;
+// line-height: 23px;
+
+
+// color: #01384D;
+
+// opacity: 0.6;
+//     }
+// }
 .narx {
     position: absolute;
     left: 47.19%;
@@ -420,7 +708,26 @@
     color: #01384D;
     opacity: 0.6;
 }
+@media (max-width:414px){
+    .narx{
+        position: absolute;
+left: 5.56%;
+right: 83.06%;
+top: 73.47%;
+bottom: 76.38%;
 
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+
+
+color: #01384D;
+
+opacity: 0.6
+    }
+}
 .narxi {
     position: absolute;
     left: 47.19%;
@@ -434,7 +741,23 @@
     line-height: 35px;
     color: #01384D;
 }
+@media (max-width:414px){
+    .narxi{
+        position: absolute;
+left: 5.56%;
+right: 58.61%;
+top: 77.99%;
+bottom: 76.02%;
 
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+
+color: #01384D;
+    }
+}
 .val {
     position: absolute;
     left: 58.2%;
@@ -448,7 +771,21 @@
     line-height: 19px;
     color: #01384D;
 }
-
+@media (max-width:414px){
+    .val{
+        position: absolute;
+left: 14.78%;
+right: 47.78%;
+top: 80%;
+bottom: 76.05%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+color: #01384D;
+    }
+}
 .buyurt {
     position: absolute;
     left: 47.19%;
@@ -459,7 +796,12 @@
     border: 2px solid #01384D;
     border-radius: 5px;
 }
+@media (max-width:414px){
+    .buyurt{
 
+    }
+
+}
 .size {
 
 
@@ -475,7 +817,19 @@
 
 .yotoqxona {
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: -150px;
+}
+@media (max-width:414px){
+    .yotoqxona{
+
+        position: absolute;
+
+left: 10%;
+right: 10%;
+top: 17.94%;
+bottom: 65.14%;
+background: url(.png);
+    }
 }
 
 .texnologiya {
@@ -557,7 +911,7 @@
 .vid1 {
     position: absolute;
     width: 310px;
-    
+
     left: 6%;
     right: 0%;
     top: 4700px;
