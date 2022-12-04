@@ -121,6 +121,22 @@ width: 1920px;
     text-align: center;
     color: #01384D;
 }
+@media (max-width: 414px){
+    .malumot__hero1{
+        position: absolute;
+left: 19.17%;
+right: 73.61%;
+top: 6.54%;
+bottom: 93%;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 50px;
+text-align: center;
+color: #01384D;
+    }
+}
 
 .malumot__hero2 {
 
