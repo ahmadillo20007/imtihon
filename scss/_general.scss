@@ -4,8 +4,16 @@
     box-sizing: border-box
 }
 .all{
- max-width: 1516px;
+max-width: 1516px;
     height: 6500px;
    box-shadow: 10px #fff;
 flex-wrap: wrap;
 }   
+@media (max-width: 414px){
+    .all{
+        font-size: 100px;
+    }
+}
+
+
+

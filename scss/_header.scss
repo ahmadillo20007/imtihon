@@ -32,6 +32,24 @@ width: 1920px;
     color: #01384D;
 
 }
+@media (max-width: 1186px){
+    .info__tel{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1161px){
+    .info__tel{
+        font-size: 10px;
+    }
+}
+@media (max-width: 414px){
+    .info__tel{
+     position: absolute;
+     right: 50px;
+     font-size: 20px;
+    }
+}
+
 
 .info__logo {
     position: absolute;
@@ -44,7 +62,7 @@ width: 1920px;
 
 .info__text {
     position: absolute;
-    max-width: 735px;
+ width: 735px;
     height: 210px;
     left: 320px;
     top: 163px;
@@ -54,6 +72,11 @@ width: 1920px;
     font-size: 90px;
     line-height: 105px;
     color: #01384D;
+}
+@media (max-width: 947px){
+    .info__text{
+        font-size: 60px;
+    }
 }
 
 .info__bad {
