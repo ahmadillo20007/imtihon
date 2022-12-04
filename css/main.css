@@ -1,5 +1,5 @@
 .container {
-  max-width: 1920px;
+  width: 1920px;
   height: 640px;
   background: #EABF9F;
 }
@@ -37,6 +37,8 @@
   height: 37.25px;
   left: 320px;
   top: 54px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .info__text {
@@ -1016,5 +1018,5 @@
   max-width: 1516px;
   height: 6500px;
   box-shadow: 10px #fff;
-  position: relative;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=main.css.map */
