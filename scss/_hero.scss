@@ -862,10 +862,17 @@ background: url(.png);
 
 }
 
-.total {
+.totall {
     display: flex;
-}
+    background-color: red;
 
+}
+@media (max-width:414px){
+    .total{
+        
+     ;
+    }
+}
 .Memoriform {
 
     position: absolute;

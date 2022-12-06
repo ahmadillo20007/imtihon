@@ -1216,8 +1216,9 @@
   color: #01384D;
 }
 
-.total {
+.totall {
   display: flex;
+  background-color: red;
 }
 
 .Memoriform {
