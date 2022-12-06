@@ -227,7 +227,7 @@
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 120px;
+    left: 120px;    
     top: 1221px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
@@ -254,54 +254,126 @@
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 0px;
+    left: 120px;
     top: 1721px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
+}
+@media (max-width:414px){
+    .box2{
+        box-sizing: border-box;
+
+        position: absolute;
+        left: -10%;
+        right: 0%;
+        
+        bottom: 0%;
+       
+
+
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+    }
 }
 
 .box3 {
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 0px;
+    left: 120px;
     top: 2221px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
 }
+@media (max-width:414px){
+    .box3{
+        box-sizing: border-box;
 
+        position: absolute;
+        left: -10%;
+        right: 0%;
+        
+        bottom: 0%;
+       
+
+
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+    }
+}
 .box4 {
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 0px;
+    left: 120px;
     top: 2721px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
 }
+@media (max-width:414px){
+    .box4{
+        box-sizing: border-box;
 
+        position: absolute;
+        left: -10%;
+        right: 0%;
+        
+        bottom: 0%;
+       
+
+
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+    }
+}
 .box5 {
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 0px;
+    left: 120px;
     top: 3271px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
 }
+@media (max-width:414px){
+    .box5{
+        box-sizing: border-box;
 
+        position: absolute;
+        left: -10%;
+        right: 0%;
+        
+        bottom: 0%;
+       
+
+
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+    }
+}
 .box6 {
     position: absolute;
     min-width: 1380px;
     height: 456px;
-    left: 0px;
+    left: 120px;
     top: 3771px;
     background: #F6FBFF;
     border: 1px solid #C7DFF5;
 }
-@media (max-width: 414px){
+@media (max-width:414px){
     .box6{
-       color: red;
+        box-sizing: border-box;
+
+        position: absolute;
+        left: -10%;
+        right: 0%;
+        
+        bottom: 0%;
+       
+color: #FFFFFF;
+
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
     }
 }
 .mahsulot__word {
@@ -329,7 +401,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 22px;
-color: #01384D;
+color: rgb(0, 0, 0);
     }
 }
 
@@ -359,7 +431,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 14px;
-color: #01384D;
+color: black;
 opacity: 0.6;
     }
 }
@@ -817,14 +889,14 @@ color: #01384D;
 
 .yotoqxona {
     margin-top: 150px;
-    margin-left: -150px;
+    margin-left: 100px;
 }
 @media (max-width:414px){
     .yotoqxona{
 
         position: absolute;
 
-left: 10%;
+left: -7.4%;
 right: 10%;
 top: 17.94%;
 bottom: 65.14%;
@@ -846,7 +918,14 @@ background: url(.png);
     text-align: center;
     color: #01384D;
 }
+@media (max-width:414px){
+    .texnologiya{
 
+        font-size:26px;
+        position: absolute;
+        left: -46%;
+    }
+}
 .aksiya {
     position: absolute;
     width: 563px;
@@ -864,15 +943,11 @@ background: url(.png);
 
 .totall {
     display: flex;
-    background-color: red;
+
 
 }
-@media (max-width:414px){
-    .total{
-        
-     ;
-    }
-}
+
+
 .Memoriform {
 
     position: absolute;
@@ -938,7 +1013,11 @@ background: url(.png);
     border: 3px solid #01384D;
     border-radius: 10px;
 }
-
+@media (max-width: 414px){
+    .vid2{
+   
+    }
+}
 .vid3 {
     width: 310px;
     position: absolute;

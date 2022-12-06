@@ -22,7 +22,28 @@
     text-align: center;
     color: #01384D;
 }
+@media (max-width:414px){
+    .adres__hero{
+        position: absolute;
+width: 299px;
+height: 28px;
+left: 20px;
+top: 5190px;
+font-size: 30px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+/* identical to box height */
 
+text-align: center;
+
+/* title color */
+
+color: #01384D;
+    }
+}
 .s1264 {
     position: absolute;
     max-width: 403px;
@@ -229,4 +250,13 @@ background: #EABF9F;
    padding: 10px;
     width: 1500px;
   
+}
+.adres{
+    width: 1300px;
+}
+@media (max-width:414px){
+    .adres{
+        flex-wrap: wrap;
+        height: 320px;
+    }
 }
